@@ -1,43 +1,3 @@
-<h1>PetFace_ClassificationModel Using ResNet50</h1>
-
-<h2>Description</h2>
-<p>This project is all about classifying pet images using a deep learning model based on ResNet50. We take a bunch of pet images, preprocess them, and train a model to recognize different breeds. The goal is to make an accurate classifier using TensorFlow and Keras while applying data augmentation and feature extraction techniques.</p>
-
-<h2>Features</h2>
-<p>Loads and preprocesses images automatically</p>
-<p>Uses data augmentation to improve model generalization</p>
-<p>Leverages the pre-trained ResNet50 model for feature extraction</p>
-<p>Trains a neural network to classify pet breeds</p>
-<p>Evaluates the model and visualizes accuracy/loss trends</p>
-
-<h2>Installation</h2>
-<p>Before running the code, install the required Python packages:</p>
-<p>pip install pandas, matplotlib, glob2 os-sys, numpy, tensorflow, scikit-learn</p>
-
-<h2>Dataset Setup</h2>
-<P>Place all pet images in a folder called images. Make sure the filenames follow this format:</P>
-<P><pet_breed>_<image_number>.jpg</P>
-<p>Example : bengal_01.jpg ,
-chihuahua_02.jpg (This naming convention helps in extracting breed labels easily.)</p>
-
-<h2>How to Run</h2>
-<P>1. Import necessary libraries</P>
-<P>import numpy as np</P>
-<P>import pandas as pd</P>
-<P>import matplotlib.pyplot as plt</P>
-<P>import tensorflow as tf</P>
-<P>from tensorflow.keras.preprocessing.image import load_img, img_to_array</P>
-<P>from sklearn.model_selection import train_test_split</P>
-<P>from tensorflow.keras.applications import ResNet50</P>
-<P>from tensorflow.keras.applications.resnet50 import preprocess_input as pp_i</P>
-<P>from tensorflow.keras.models import Model, Sequential</P>
-<P>from tensorflow.keras.layers import RandomFlip, RandomRotation, Dense, Dropout, Input</P>
-<P>from tensorflow.keras.losses import CategoricalCrossentropy</P>
-<P>from tensorflow.keras.optimizers import Adam</P>
-<P>import glob</P>
-<P>import os</P>
-
-
 # Pet Image Classification using ResNet50
 
 ## Overview
@@ -194,20 +154,6 @@ After training for 15 epochs, the model achieves a decent accuracy. You can impr
 - Try other models like EfficientNet or MobileNet
 
 ## Author
-[Your Name]
-
-## License
-This project is open-source under the MIT License.
-
-
-
-
-
-
-
-
-
-
-
+[Sanjay Kumar Purohit]
 
 
