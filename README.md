@@ -148,11 +148,6 @@ y_pred = model.predict(x_test)
 ## Results
 After training for 15 epochs, the model achieves a decent accuracy. You can improve it further by fine-tuning the ResNet50 layers or experimenting with different hyperparameters.
 
-## Future Improvements
-- Add real-time classification using a webcam
-- Deploy as a web app using Flask or FastAPI
-- Try other models like EfficientNet or MobileNet
-
 ## Author
 [Sanjay Kumar Purohit]
 
